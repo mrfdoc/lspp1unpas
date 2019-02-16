@@ -1,14 +1,814 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LSP P1 Unpas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fables">
+    <meta name="author" content="Enterprise Development">
+    <link rel="shortcut icon" href="assets/custom/images/shortcut.png">
+
+    <title> Lembaga Sertifikasi Profesi - LSP P1 Universitas Pasundan </title>
+
+    <!-- animate.css-->
+    <link href="assets/vendor/animate.css-master/animate.min.css" rel="stylesheet">
+    <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" rel="stylesheet">
+    <!-- Load Screen -->
+    <link href="assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <!-- Font Awesome 5 -->
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- Fables Icons -->
+    <link href="assets/custom/css/fables-icons.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet">
+    <!-- portfolio filter gallery -->
+    <link href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet">
+    <!-- Video Background -->
+    <link href="assets/vendor/video-background/video-background.css" rel="stylesheet">
+    <!-- FANCY BOX -->
+    <link href="assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- RANGE SLIDER -->
+    <link href="assets/vendor/range-slider/range-slider.css" rel="stylesheet">
+    <!-- OWL CAROUSEL  -->
+    <link href="assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS FILE -->
+    <link href="assets/custom/css/custom.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+    <link href="assets/custom/css/custom-responsive.css" rel="stylesheet">
+
 </head>
+
+
 <body>
-    <h1>hello world</h1>
-    <p>I'm Back</p>
-    <p>to the world</p>
+
+    <!-- Loading Screen -->
+    <div id="ju-loading-screen">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+
+
+    <!-- Start Top Header -->
+    <div class="fables-forth-background-color fables-top-header-signin">
+        <div class="container">
+            <div class="row" id="top-row">
+                <div class="col-12 col-sm-2 col-lg-5">
+                </div>
+                <div class="col-12 col-sm-5 col-lg-4 text-right">
+                    <p class="fables-third-text-color font-13"><span class="fables-iconphone"></span> Phone : (022)
+                        2019335</p>
+                </div>
+                <div class="col-12 col-sm-5 col-lg-3 text-right">
+                    <p class="fables-third-text-color font-13"><span class="fables-iconemail"></span> Email:
+                        lspp1unpas@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- /End Top Header -->
+
+    <!-- Start Fables Navigation -->
+    <div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-24 pr-md-8">
+                    <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+                        <a class="navbar-brand pl-0" href="index.html"><img src="assets/custom/images/logo-lsp.png"
+                                alt="LOGO LSP" class="LSP-logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fables-iconmenu-icon text-white font-16"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="fablesNavDropdown">
+                            <ul class="navbar-nav mx-auto fables-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#vid" id="sub-nav1" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Beranda
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="tentang.html" id="sub-nav3"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Tentang
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="sub-nav3">
+                                        <li><a class="dropdown-item" href="tentang.html">Tentang Kami</a></li>
+                                        <li><a class="dropdown-item" href="team.html">Struktur Organisasi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="skema.html" id="sub-nav4"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Skema Kompetensi
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="sub-nav4">
+                                        <li><a class="dropdown-item" href="skema.html">Skema Kompetensi</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="store_single.html">Prosedur Pendaftaran</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="asesor.html" id="sub-nav6" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Asesor Kami
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="kontak.html" id="sub-nav7" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Kontak Kami
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /End Fables Navigation -->
+
+    <!--Video Section-->
+    <section class="content-section video-section fables-after-overlay" id="vid">
+        <div class="pattern-overlay">
+            <a id="bgndVideo" class="player"
+                data-property="{videoURL:'https://www.youtube.com/watch?v=WMdDgd9h39U',containment:'.video-section', quality:'large',mute: 'true' ,autoPlay:true, opacity:1}">bg</a>
+            <div class="container position-relative z-index">
+                <div class="fables-video-caption text-center wow zoomIn" data-wow-delay="1s" data-wow-duration="2s">
+                    <h1 class="white-color font-weight-bold mt-6">LEMBAGA SERTIFIKASI PROFESI P1</h1>
+                    <h1 class="white-color font-weight-bold mt-2">UNIVERSITAS PASUNDAN</h1>
+                    <p class="fables-fifth-text-color mt-3 mb-4 font-18">
+                        KOMPETEN ITU KEREN
+                    </p>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=WMdDgd9h39U">
+                        <span class="fables-iconplay fables-second-text-color fa-4x wow bounce"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <!--Video Section Ends Here-->
+
+
+    <!-- Start page content -->
+    <div class="container">
+        <div class="row my-4 my-md-5">
+            <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center wow fadeIn"
+                data-wow-duration="2.5s" data-wow-delay=".4s">
+                <h2 class="font-35 font-weight-bold fables-second-text-color mb-4"> TENTANG <br>
+                    LSP P1 UNIVERSITAS PASUNDAN</h2>
+                <p class="fables-forth-text-color">
+                    Mempunyai tugas mengembangkan standar kompetensi, serta melakukan akreditasi tempat uji kompetensi
+                    untuk melakukan pembenahan sistem, pembinaan sumber daya manusia yang berorientasi pada kebutuhan
+                    dunia kerja sehingga tenaga kerja kita diakui kompetensinya oleh pihak dunia industri. Sumber daya
+                    yang kompeten tidak cukup dibekali ijazah, tetapi perlu di dampingi dan di support dengan
+                    Sertifikasi Kompetensi yang diakui oleh Badan Nasional Sertifikasi Profesi (BNSP).
+                </p>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- Start Service -->
+    <div class="container-fluid my-0 my-lg-5">
+        <div class="row">
+            <div class="col-12 col-lg-2 p-0">
+                <div
+                    class="text-center fables-main-background-color fables-sqr-rotation fables-second-border-color fables-sqr-rotation-services">
+                    <div class="text-rotate">
+                        <h2 class="text-white font-25">Pelayanan <br><span
+                                class="white-color font-40 bold-font mt-2 d-block">Kami</span></h2>
+                        <p class="fables-third-text-color mt-4 mb-3 mb-lg-5">
+                            Lembaga Sertifikasi Profesi P1 Universitas Pasundan
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-10 p-0">
+                <div
+                    class="fables-index-services fables-after-overlay py-md-5 px-3 pr-md-4 pl-md-5 bg-rules sm-index-products mt-lg-0 mt-xl-5">
+                    <div class="container z-index position-relative">
+                        <div class="row">
+                            <div class="col-12 col-lg-10 offset-lg-2">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown"
+                                        data-wow-delay=".4s">
+                                        <div class="row text-center text-md-left">
+                                            <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                <span class="fables-iconfile fables-second-text-color font-40"></span>
+                                            </div>
+                                            <div class="col-12 col-md-9 pl-md-0">
+                                                <h2 class="text-white font-19 semi-font mb-2">Kejujuran, Teliti dan
+                                                    Akurat
+                                                </h2>
+                                                <div class="font-14 text-white">
+                                                    Memberikan pelayanan dengan kejujuran, teliti, cepat, tepat, akurat
+                                                    dan efisien.
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown"
+                                        data-wow-delay=".8s">
+                                        <div class="row text-center text-md-left">
+                                            <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                <span class="fables-iconscreen fables-second-text-color font-40"></span>
+                                            </div>
+                                            <div class="col-12 col-md-9 pl-md-0">
+                                                <h2 class="text-white font-19 semi-font mb-2">Standar Sertifikasi
+                                                    Profesi</h2>
+                                                <div class="font-14 text-white">
+                                                    Menetapkan kebijakan, prosedur, dan administrasi standar lembaga
+                                                    sertifikasi profesi dengan kriteria sertifikasi, jujur dan wajar.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown"
+                                        data-wow-delay="1.2s">
+                                        <div class="row text-center text-md-left">
+                                            <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                <span
+                                                    class="fables-iconbussiness4 fables-second-text-color font-40"></span>
+                                            </div>
+                                            <div class="col-12 col-md-9 pl-md-0">
+                                                <h2 class="text-white font-19 semi-font mb-2">Prosedur Mudah
+                                                </h2>
+                                                <div class="font-14 text-white">
+                                                    Menggunakan prosedur yang tidak menghambat bagi seluruh calon asesi.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 pb-lg-5 mt-4 mt-lg-0 wow fadeInDown"
+                                        data-wow-delay="1.6s">
+                                        <div class="row text-center text-md-left">
+                                            <div class="col-12 col-md-3 col-xl-2 mb-3 mb-md-0">
+                                                <span class="fables-iconuser fables-second-text-color font-40"></span>
+                                            </div>
+                                            <div class="col-12 col-md-9 pl-md-0">
+                                                <h2 class="text-white font-19 semi-font mb-2">Berkualitas
+                                                </h2>
+                                                <div class="font-14 text-white">
+                                                    Menyelenggarakan pendidikan bertaraf internasional meningkatkan
+                                                    martabat manusia.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Service -->
+
+    <h2 class="font-35 font-weight-bold text-center fables-second-text-color wow fadeIn" data-wow-duration="2.5s"
+        data-wow-delay=".4s">VISI DAN MISI</h2>
+    <br>
+    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center wow fadeIn" data-wow-duration="2.5s"
+        data-wow-delay=".4s">
+        <p class="fables-forth-text-color">
+            Menjadi lembaga sertifikasi profesi yang mandiri, handal, terpercaya dan mampu memenuhi tuntutan
+            sertifikasi kompetensi di bidang pendidikan dan lainnya yang di akui secara nasional dan internasional.
+        </p>
+    </div>
+
+    <br><br>
+    <div class="row mt-3 mt-lg-5">
+        <div class="col-12 col-lg-6 mt-3 mt-lg-0 overflow-hidden">
+            <div id="accordion">
+                <div class="card border-0 mb-2">
+                    <div class="card-header p-0 border bg-transparent rounded-0" id="headingOne">
+                        <h5 class="mb-0 position-relative">
+                            <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                <i class="fas fa-plus"></i>
+                            </span>
+                            <button
+                                class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate"
+                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Mengutamakan Mutu
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0">
+                            Memberikan pelayanan standar uji kompetensi yang mengutamakan mutu dan kepuasan
+                            pelanggan kepada para mahasiswa serta menjamin bahwa pengujian dilakukan oleh para
+                            assesor yang handal dan dilaksanakan dengan kejujuran, teliti, cepat, tepat akurat dan
+                            efisien.
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 mb-2">
+                    <div class="card-header bg-transparent p-0 border rounded-0" id="headingTwo">
+                        <h5 class="mb-0 position-relative">
+                            <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                <i class="fas fa-plus"></i>
+                            </span>
+                            <button
+                                class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Jujur
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0">
+                            Menetapkan kebijakan, prosedur, dan administrasi standar lembaga sertifikasi profesi
+                            dengan kriteria sertifikasi, jujur dan wajar terhadap seluruh calon dan memenuhi semua
+                            persyaratan dan peraturan yang berlaku.
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 mb-2">
+                    <div class="card-header p-0 border bg-transparent rounded-0" id="headingThree">
+                        <h5 class="mb-0 position-relative">
+                            <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                <i class="fas fa-plus"></i>
+                            </span>
+                            <button
+                                class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Prosedur mudah
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0">
+                            Menggunakan prosedur yang tidak menghambat dan tidak menghalangi akses oleh para pemohon
+                            sertifikasi dan calon assesi.
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 mb-2">
+                    <div class="card-header p-0 border bg-transparent rounded-0" id="headingfour">
+                        <h5 class="mb-0 position-relative">
+                            <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                <i class="fas fa-plus"></i>
+                            </span>
+                            <button
+                                class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed"
+                                data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Menjunjung Misi UNPAS
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+                        <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0">
+                            Menjunjung Misi Universitas Pasundan yaitu menyelenggarakan pendidikan bertaraf
+                            internasional meningkatkan martabat manusia, memelihara & menjaga serta mengembangkan
+                            budaya sunda dan syiar Islam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="together-block">
+                <div class="fables-main-color-transparent p-4 p-lg-5 position-relative">
+                    <img src="assets/custom/images/man-image.png" alt="" class="img-fluid together-abs-img wow fadeIn">
+                    <br>
+                    <br>
+                    <h2 class="white-color font-30" style="font-family: 'Satisfy', cursive; font-size: 30px">
+                        Together</h2>
+                    <h2 class="white-color font-30" style="font-family: 'Satisfy', cursive; font-size: 30px">Can
+                        Solve</h2>
+                    <h2 class="white-color font-30 semi-font" style="font-family: 'Satisfy', cursive; font-size: 38px">
+                        The Problem</h2>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid overflow-hidden">
+        <div class="row mt-0 mt-lg-5">
+            <div class="col-12 col-md-6 p-0">
+                <div style="background-image: url(assets/custom/images/overlay1.jpg);">
+                    <div class="fables-second-color-transparent p-6">
+                        <h2 class="white-color font-weight-bold mb-4 font-35 wow fadeInLeft">Tujuan <br>Sertifikasi
+                        </h2>
+                        <p class="fables-third-text-color wow fadeInLeft">
+                            1. Menghasilkan Lulusan yang memiliki kompetensi di bidang yang dapat dibuktikan dengan
+                            sertifikat kompetensi sebagai sertifikat pendamping ijazah.
+                            <br><br>
+                            2. Sertifikasi profesi yang di berikan kepada peserta didik akan lebih memberikan
+                            jaminan
+                            bagi lulusan dalam memasuki dunia kerja dan usaha di ruang lingkup industri nasional
+                            maupun
+                            global.
+                            <br><br>
+                            3. Meningkatkan kualitas serta nilai jual lulusan dalam memasuki pasar kerja global.
+                            <br><br>
+                            4. Menjamin bahwa proses pendidikan yang di jalankan dalam menyiapkan tenaga kerja yang
+                            kompeten sudah memenuhi standar yang diharapkan.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 px-6">
+
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                        <span class="fables-iconbussiness fables-second-text-color fa-3x"></span>
+                        <h2 class="fables-main-text-color font-18 my-2">KOMPETEN</h2>
+                        <p class="fables-forth-text-color font-weight-light">
+                            Dibekali sertifikat pendamping ijazah berdasarkan skema kompetensi yang dipilih.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                        <span class="fables-iconbussiness2 fables-second-text-color fa-3x"></span>
+                        <h2 class="fables-main-text-color font-18 my-2">SIAP BERSAING</h2>
+                        <p class="fables-forth-text-color font-weight-light">
+                            Siap bersaing di pasar tenaga kerja dengan kemampuan serta skill yang kompeten.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                        <span class="fables-iconbussiness3 fables-second-text-color fa-3x"></span>
+                        <h2 class="fables-main-text-color font-18 my-2">MENINGKATKAN KUALITAS</h2>
+                        <p class="fables-forth-text-color font-weight-light">
+                            Mengetahui prosedur maupun gambaran dunia kerja pada saat sertifikasi dilakukan.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 text-center text-md-left wow fadeInRight">
+                        <span class="fables-iconbussiness4 fables-second-text-color fa-3x"></span>
+                        <h2 class="fables-main-text-color font-18 my-2">SESUAI STANDAR</h2>
+                        <p class="fables-forth-text-color font-weight-light">
+                            Sertifikasi dilaksanakan berdasarkan standar nasional SKKNI.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fables-testimonial fables-after-overlay fables-about-caption py-5 bg-rules"
+        style="background-image: url(assets/custom/images/index2-overlay.jpg);">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="position-relative z-index col-12 col-md-8 offset-md-2 text-center wow zoomIn"
+                    data-wow-duration="2s">
+                    <h3 class=" white-color mb-3 font-25 font-weight-bold">Bergabunglah bersama kami dan daftarkan
+                        diri
+                        anda menjadi calon asesi yang profesional!!!</h3>
+                    <p class="font-weight-light fables-third-text-color">
+                        Daftarkan diri anda sekarang juga!
+                    </p>
+                    <a href="skema.html" target="_blank"
+                        class="btn fables-second-background-color white-color white-color-hover fables-btn-rounded  mt-4 py-2 px-5">Skema</a>
+                    <a href="contactus1.html" target="_blank"
+                        class="btn fables-second-background-color white-color white-color-hover fables-btn-rounded  mt-4 py-2 px-5">Daftar</a>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <h2 class="fables-main-text-color font-35 font-weight-bold text-center my-4 my-lg-5">Jadilah <span
+                class="fables-second-text-color">Kompeten</span> Bersama Kami </h2>
+        <div class="row my-4 my-md-5">
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay=".4s" data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconnews fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Pengetahuan</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Segala sesuatu yang diketahui berkenaan dengan hal atau sesuatu hal.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay=".8s" data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconscreen fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Keterampilan</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Kecakapan untuk menyelesaikan tugas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay="1.2s"
+                data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconuser fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Sikap Kerja</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Keyakinan yang mengandung aspek kognitif dan afektif yang berdasarkan SOP (Standar
+                            Operasional Prosedur).
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay="1.6s"
+                data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconbussiness fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Pengalaman</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Kegiatan kerja yang pernah dialami dan memberikan nilai tambah terhadap individu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay="2s" data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconcommingSoon fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Tanggung Jawab</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Loyal terhadap kondisi dan kegiatan yang dilaksanakan.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-md-5 wow zoomIn" data-wow-delay="2.4s"
+                data-wow-duration="1.5s">
+                <div class="row text-center text-md-left">
+                    <div class="col-12 col-md-3">
+                        <span class="fables-iconfile fables-second-text-color fa-3x"></span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-md-0">
+                        <h2 class="fables-main-text-color font-20 my-2 mt-md-0 semi-font">Pertanggungjawaban</h2>
+                        <div class="font-15 fables-forth-text-color">
+                            Kompetitif terhadap produk maupun individu yang kompeten.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+    </div>
+
+    <div class="fables-testimonial fables-after-overlay py-4 py-lg-6 half-width-testimonial bg-rules">
+        <div class="container z-index position-relative">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="white-color font-25 mb-2">Mengapa harus</p>
+                    <h2 class="fables-second-text-color font-35 font-weight-bold">melalui <span class="white-color">LSP?</span></h2>
+                    <p class="fables-third-text-color mt-4 mb-4">
+                        Kami menjaga kepercayaan client terhadap lembaga ini dengan memberikan pelayanan terhadap client berdasarkan sistem mutu yang berkualitas serta terpercaya dengan mengedepankan aturan dan acuan normatif yang berlaku.
+                    </p>
+                    <div class="owl-carousel owl-theme dots-0 nav-default default-carousel">
+                        <div class="text-center">
+                            <div>
+                                <div class="image-container shine-effect d-inline-block rounded-circle">
+                                    <img src="assets/custom/images/testimonial-img.png" alt="Fables Template"
+                                        class="fables-testimonial-carousel-img my-0 mx-auto rounded-circle">
+                                </div>
+
+                                <h3 class="font-14 semi-font  white-color mt-3">Prof. Dr. Ir. H. Eddy Yusuf, SP., M.Si., M.Kom.</h3>
+                                <h3 class="font-13 font-italic white-color mt-2 mb-4">Rektor Universitas Pasundan</h3>
+                            </div>
+                            <div class="fables-testimonial-carousel-item fables-rounded p-3">
+                                <div
+                                    class="fables-testimonial-detail font-15 font-italic white-color position-relative">
+                                    nice
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div>
+                                <div class="image-container shine-effect d-inline-block rounded-circle">
+                                    <img src="assets/custom/images/testimonial-img1.png" alt="Fables Template"
+                                        class="fables-testimonial-carousel-img my-0 mx-auto rounded-circle">
+                                </div>
+
+                                <h3 class="font-14 semi-font  white-color mt-3">Ir. H. Erwin Maulana Pribadi, MT., IPM.</h3>
+                                <h3 class="font-13 font-italic white-color mt-2 mb-4">Direktur LSP P1 Universitas Pasundan</h3>
+                            </div>
+                            <div class="fables-testimonial-carousel-item fables-rounded p-3">
+                                <div
+                                    class="fables-testimonial-detail font-15 font-italic white-color position-relative">
+                                    slash
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div>
+                                <div class="image-container shine-effect d-inline-block rounded-circle">
+                                    <img src="assets/custom/images/testimonial-img2.png" alt="Fables Template"
+                                        class="fables-testimonial-carousel-img my-0 mx-auto rounded-circle">
+                                </div>
+                                <h3 class="font-14 semi-font  white-color mt-3">Ir. H. Reksi Agusjaya</h3>
+                                <h3 class="font-13 font-italic white-color mt-2 mb-4">Alumni PT. Dirgantara Indonesia</h3>
+                            </div>
+                            <div class="fables-testimonial-carousel-item fables-rounded p-3">
+                                <div
+                                    class="fables-testimonial-detail font-15 font-italic white-color position-relative">
+                                     good
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div>
+                                <div class="image-container shine-effect d-inline-block rounded-circle">
+                                    <img src="assets/custom/images/testimonial-img3.png" alt="Fables Template"
+                                        class="fables-testimonial-carousel-img my-0 mx-auto rounded-circle">
+                                </div>
+                                <h3 class="font-14 semi-font  white-color mt-3">Ir. Sudarsono, MT.</h3>
+                                <h3 class="font-13 font-italic white-color mt-2 mb-4">Alumni PT. Pindad (Persero)</h3>
+                            </div>
+                            <div class="fables-testimonial-carousel-item fables-rounded p-3">
+                                <div
+                                    class="fables-testimonial-detail font-15 font-italic white-color position-relative">
+                                    test
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 mt-lg-0">
+                    <div class="position-relative image-container zoomIn-effect">
+                        <img src="assets/custom/images/index-video.jpg" alt="" class="img-fluid">
+                        <div class="demo-gallery-poster fables-main-gradient">
+                            <a data-fancybox href="https://www.youtube.com/watch?v=meBbDqAXago">
+                                <img src="assets/custom/images/play-button.png" alt="play button" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12">
+            <h2 class="font-35 font-weight-bold fables-main-text-color my-4 my-lg-5 text-center">Lokasi Kami</h2>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var uluru = { lat: -6.8659732, lng: 107.5925469 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhSUFaJN48j0M3Qw1vMb11-7-SbEkhw60&callback=initMap">
+        </script>
+
+    <!-- Start Footer 2 Background Image  -->
+    <div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <a href="#vid" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img
+                            src="assets/custom/images/logo-lsp.png" alt="fables template"></a>
+                    <p class="font-15 fables-third-text-color">
+                        Mempunyai tugas mengembangkan standar kompetensi, serta melakukan akreditasi tempat uji
+                        kompetensi untuk melakukan pembenahan sistem, pembinaan sumber daya manusia yang berorientasi
+                        pada kebutuhan dunia kerja sehingga tenaga kerja kita diakui kompetensinya oleh pihak dunia
+                        industri.
+                        <br><br>
+                        Sumber daya yang kompeten tidak cukup dibekali ijazah, tetapi perlu di dampingi dan di
+                        support dengan Sertifikasi Kompetensi yang diakui oleh Badan Nasional Sertifikasi Profesi
+                        (BNSP).
+                    </p>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Kontak Kami</h2>
+                    <div class="my-3">
+                        <h4 class="font-16 semi-font"><span
+                                class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+                            Alamat</h4>
+                        <p class="font-14 fables-fifth-text-color mt-2 ml-4">Jalan Dr. Setiabudhi no. 193 Gedung B
+                            Kampus IV Unpas, 40154</p>
+                    </div>
+                    <div class="my-3">
+                        <h4 class="font-16 semi-font"><span
+                                class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+                            Telepon </h4>
+                        <p class="font-14 fables-fifth-text-color mt-2 ml-4">(022) 2019335</p>
+                    </div>
+                    <div class="my-3">
+                        <h4 class="font-16 semi-font"><span
+                                class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>
+                            E-mail </h4>
+                        <p class="font-14 fables-fifth-text-color mt-2 ml-4">lspp1unpas@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">Jelajahi Kami
+                    </h2>
+                    <ul class="nav fables-footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="team.html">Struktur Organisasi</a></li>
+                        <li><a href="gallery.html">Skema Kompetensi</a></li>
+                        <li><a href="team.html">Asesor Kami</a></li>
+                        <li><a href="blog.html">Kontak Kami</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright fables-main-background-color mt-0 border-0 white-color">
+        <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+            <li><a href="mailto:lspp1unpas@gmail.com" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/18952240/admin/notifications/all/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p class="mb-0">Copyright © LSP P1 Universitas Pasundan 2019. <br> Development by <a
+                href="https://www.linkedin.com/in/mrfcreative/">mrfcreative</a>. <br> All rights reserved.</p>
+
+    </div>
+
+    <!-- /End Footer 2 Background Image -->
+
+
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/timeline/jquery.timelify.js"></script>
+    <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+    <script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+    <script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+    <script src="assets/vendor/video-background/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+    <script src="assets/custom/js/custom.js"></script>
+    <script>
+        $(".player").mb_YTPlayer();
+    </script>
+
 </body>
+
 </html>
